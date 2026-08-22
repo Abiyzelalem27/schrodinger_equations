@@ -13,7 +13,6 @@ def relative_error(theortical, observable):
 
     Returns:
     -------
-    float or ndarray
         The relative error expressed as a percentage.
     """
     return abs((theortical - observable) / theortical) * 100

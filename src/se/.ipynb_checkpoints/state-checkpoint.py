@@ -17,7 +17,6 @@ def true_psi(n, x, a):
 
     Returns:
     -------
-    ndarray or float
         The exact analytical wavefunction value(s) at position x.
     """
     return np.sqrt(2 / a) * np.sin(n * np.pi * x / a) 
